@@ -43,7 +43,7 @@
 				<div class="fields">
 					<div class="optin optin-email">
 						<label>
-							<input type="checkbox" name="emailConsent" value="1"{if $emailConsent} checked="checked"{/if}>
+<input type="checkbox" name="emailConsent" value="1" checked="checked">
 							{translate key="user.register.form.emailConsent"}
 						</label>
 					</div>

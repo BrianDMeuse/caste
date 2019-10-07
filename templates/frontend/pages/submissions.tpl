@@ -36,7 +36,9 @@
 				{translate key="about.submissionPreparationChecklist"}
 				{include file="frontend/components/editLink.tpl" page="management" op="settings" path="publication" anchor="submissionStage" sectionTitleKey="about.submissionPreparationChecklist"}
 			</h2>
-			{translate key="about.submissionPreparationChecklist.description"}
+			{translate key="plugins.themes.caste.about.submissionPreparationChecklist.description"}
+                        <br/><br/>
+                        {translate key="plugins.themes.caste.about.submissionPreparationChecklist.description2"} 
 			<ul>
 				{foreach from=$submissionChecklist item=checklistItem}
 					<li>
